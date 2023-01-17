@@ -1,4 +1,9 @@
-﻿public class Solution
+﻿/*
+ * Count Zeroes
+ * From left to right count of 0 decreases and count of 1 increases
+ * Update Output
+ */
+public class Solution
 {
     public int MinFlipsMonoIncr(string s)
     {
@@ -15,7 +20,7 @@
         /*
         *From left to right count of 0 decreases and count of 1 increases
         */
-        for (int i = 0; i < s.Length; i++)
+for (int i = 0; i < s.Length; i++)
         {
             if (s[i] == '0')
             {
